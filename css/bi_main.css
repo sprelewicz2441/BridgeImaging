@@ -56,6 +56,24 @@ header.carousel .carousel-caption {
     bottom: initial;
 }
 
+.marketing-row [class*='panel'] {
+    background: inherit;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    position: relative;
+}
+
+.marketing-row .panel-heading {
+    text-transform: uppercase;
+}
+
+
+
+.more-links [class*="col-"] {
+    padding-bottom: 15px;
+}
+
 /* 404 Page Styles */
 
 .error-404 {
@@ -84,7 +102,18 @@ header.carousel .carousel-caption {
 /* Footer Styles */
 
 footer {
-    margin: 50px 0;
+    margin: 0px 0px;
+    min-height: 40px;
+    color: #000;
+}
+
+footer  a {
+    color: #fff;
+    font-size: 12px;
+}
+
+footer .navbar, .navbar-header {
+    margin-top: 15px;
 }
 
 /* Responsive Styles */
@@ -105,3 +134,16 @@ footer {
         
     }
 }
+
+@media(min-width:600px) {
+    .marketing-row .row {
+    display: table;
+}
+
+.marketing-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+}
+
