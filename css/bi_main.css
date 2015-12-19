@@ -51,7 +51,7 @@ header.carousel .fill {
 }
 
 header.carousel .carousel-caption {
-   color: #000;
+   color: #fff;
    top: 50%;
     transform: translateY(-50%);
     bottom: initial;
@@ -138,13 +138,13 @@ footer .navbar, footer .navbar-header {
 
 @media(min-width:600px) {
     .marketing-row .row {
-    display: table;
-}
+        display: table;
+    }
 
-.marketing-row [class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-}
+    .marketing-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
 }
 
