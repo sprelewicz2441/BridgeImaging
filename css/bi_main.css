@@ -15,7 +15,6 @@ body {
     padding-top: 110px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-
 .img-hover:hover {
     opacity: 0.8;
 }
@@ -29,6 +28,13 @@ body {
 
 .navbar {
     margin-bottom: 0px;
+}
+.navbar a:hover {
+    border-bottom: 3px solid #229fbd;
+}
+
+.navbar .navbar-collapse {
+    padding-top: 25px;
 }
 
 /* Home Page Carousel */
@@ -53,11 +59,12 @@ header.carousel .fill {
 header.carousel .carousel-caption {
    color: #fff;
    top: 50%;
+   left: 50%;
     transform: translateY(-50%);
-    bottom: initial;
+
 }
 
-.marketing-row [class*='panel'] {
+[class*='panel'] {
     background: inherit;
     border: 0px;
     border-radius: 0px;
@@ -75,6 +82,33 @@ header.carousel .carousel-caption {
     padding-bottom: 15px;
 }
 
+.services-opinion .img-responsive {
+    margin: 0 auto;
+}
+
+.services-opinion div {
+    background: url('../assets/second_opinion.png') center center no-repeat;
+    height: 490px;
+
+}
+
+.services-city {
+    background: url('../assets/city_blue_overlay.png') no-repeat;
+    height: 350px;
+    color: #fff;
+}
+
+.services-load-more {
+    padding-top: 400px;
+}
+
+.text-v-middle {
+    padding-top: 7%;
+}
+
+.btn-warning{
+    background-color: #555b6e;
+}
 /* 404 Page Styles */
 
 .error-404 {
