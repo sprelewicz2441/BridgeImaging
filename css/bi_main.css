@@ -32,6 +32,9 @@ a:hover, a:active {
     background-color: #555b6e;
 }
 
+.ft-48 {
+    font-size: 48px;
+}
 .img-hover:hover {
     opacity: 0.8;
 }
@@ -77,9 +80,18 @@ header.carousel .fill {
 
 header.carousel .carousel-caption {
    color: #fff;
-   top: 50%;
-   left: 50%;
-    transform: translateY(-50%);
+   top: 40%;
+   left: 35%;
+   transform: translateY(-30%);
+   font-family: 'Porter Bold DEMO';
+   text-transform: uppercase;
+
+}
+
+header.carousel .carousel-caption h5 {
+   text-transform: none;
+   font-family: 'Arial';
+   margin-top: 25px;
 
 }
 
