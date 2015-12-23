@@ -140,6 +140,20 @@ header.carousel .carousel-caption h5 {
     background-color: #555b6e;
 }
 
+.bg-warning{
+    background-color: #999;
+}
+
+legend {
+    border-bottom: 0px;
+    padding-top: 10px;
+}
+
+.well {
+    margin-bottom: 0px;
+    border: 0px;
+}
+
 .contact-map {
     background: url('../assets/contact_us_map.png') no-repeat;
     height: 350px;
@@ -166,6 +180,10 @@ header.carousel .carousel-caption h5 {
 .contact-info h4 {
     font-family: 'Porter Bold DEMO';
     text-transform: uppercase;
+}
+
+#success_message{ 
+    display: none;
 }
 
 /* 404 Page Styles */
@@ -214,7 +232,7 @@ footer .navbar li a:hover {
 }
 
 footer .navbar, footer .navbar-header {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 /* Responsive Styles */
