@@ -128,6 +128,26 @@ header.carousel .carousel-caption h5 {
     color: #fff;
 }
 
+.testimonials-city {
+    background: url('../assets/testimonials_city.png') no-repeat;
+    height: 350px;
+    color: #fff;
+}
+
+.testimonials-city h3 {
+    text-transform: uppercase;
+    font-family: 'Porter Bold DEMO';
+    padding-top: 30px;
+}
+
+.testimonials-pictures {
+    padding-top: 50px;
+}
+.testimonials-pictures img {
+    max-width: 50px;
+    margin: 25px;
+}
+
 .services-load-more {
     padding-top: 400px;
 }
@@ -152,6 +172,17 @@ legend {
 .well {
     margin-bottom: 0px;
     border: 0px;
+}
+
+.doctor-picture {
+    padding-right: 15px;
+    padding-bottom: 10px;
+    max-width: 200px;
+    float: left;
+}
+
+.doctor-name {
+    margin-left: 18px;
 }
 
 .contact-map {
